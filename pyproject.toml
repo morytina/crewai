@@ -19,5 +19,5 @@ test = "crewai.main:test"
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[tool.uv]
-dev-dependencies = []
+[tool.crewai]
+type = "crew"
